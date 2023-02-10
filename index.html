@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Lap 12.1</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section class="navbar py-0">
+      <div
+        class="container-fluid navbar navbar-expand-md navbar-dark bg-dark text-light d-fex align-items-center justify-content-between"
+      >
+        <div
+          class="navbar-left d-flex-md align-tiems-center justify-content-center"
+        >
+          <a href="#" class="btn btn-dark">Carousel</a>
+          <a href="#" class="btn btn-dark">Home</a>
+          <a href="#" class="btn btn-dark">Link</a>
+          <a href="#" class="btn btn-dark">Disable</a>
+        </div>
+
+        <div class="navbar-right d-flex-md align-items-center">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" />
+            <a href="#" class="btn btn-dark ms-3">Search</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main -->
+    <section class="main">
+      <div class="container-fluid py-0">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item item1 active">
+              <div class="content content1">
+                <p class="title-text text-white fw-bold h1">
+                  Example headline.
+                </p>
+                <p class="text-white h5 my-2">
+                  Some representative placeholder content for the first slide of
+                  the carousel
+                </p>
+                <a href="#" class="btn btn-primary">Sign up today </a>
+              </div>
+              <img src="img/ford.jpg" class="d-block w-100" alt="" />
+            </div>
+            <div class="carousel-item item2">
+              <div class="content content2">
+                <p class="title-text text-white fw-bold h1">
+                  Example headline321.
+                </p>
+                <p class="text-white h5 my-2">
+                  Some representative placeholder content for the first slide of
+                  the carousel Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Impedit quo repellendus nihil, assumenda
+                  quasi tempora sed asperiores ad eos, dolor rem earum iste
+                  aperiam reprehenderit vitae ea quaerat consequuntur. Officia.
+                </p>
+                <a href="#" class="btn btn-primary">Sign up today </a>
+              </div>
+              <img src="img/fer.jpg" class="d-block w-100" alt="" />
+            </div>
+            <div class="carousel-item item3">
+              <div class="content content3">
+                <p class="title-text text-white fw-bold h1">
+                  Example headline123. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Officiis voluptates quae expedita, culpa
+                  fugit voluptas?
+                </p>
+                <p class="text-white h5 my-2">
+                  Some representative placeholder content for the first slide of
+                  the carousel
+                </p>
+                <a href="#" class="btn btn-primary">Sign up today </a>
+              </div>
+              <img src="/img/camaro.jpg" class="d-block w-100" alt="" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="d-flex pb-5 align-items-end justify-content-around">
+      <div class="copy-text">
+        &copy; 2017-2021 Company, Inc . <a href="#">Privacy</a>.
+        <a href="#">Terms</a>
+      </div>
+
+      <a href="#" class="back-to-top">Back To Top</a>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
